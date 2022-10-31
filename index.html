@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="liveScores">
+        <div class="liveScoresArea">
+            <h2>Live scores</h2>
+            <div class="scores">
+                <p>SJC Ninjas - 314</p>
+                <p>NS Pirates - 159</p>
+            </div>
+            <div class="scores">
+                <p>CHI Samurai - 0</p>
+                <p>TUL Wizards - 0</p>
+            </div>
+            <div class="scores">
+                <p>BOS Hackers - 13</p>
+                <p>TYO Youkai - 37</p>
+            </div>
+            <div class="scores">
+                <p>BOI Knights - 5</p>
+                <p>SEA Seal Lions - 11</p>
+            </div>
+        </div>
+    </div>
+    <div class="navBar">
+        <div class="navContent">
+            <h1 class="nav-title nav-display">DSNN</h1>
+            <ul class="nav-links nav-display">
+                <li><a href="#">Football</a></li>
+                <li><a href="#">Basketball</a></li>
+                <li><a href="#">Baseball</a></li>
+                <li><a href="#">Soccer</a></li>
+                <li><a href="#">More...</a></li>
+            </ul> 
+            <span>
+                <img class="smallUser" src="Exam-pics/assets/search-light.png" alt="magnifying glass">
+                <img class="smallUser" src="Exam-pics/assets/hamburger-light.png" alt="hamburger light">
+                <img id="smallUserID" src="Exam-pics/user-circle.png" alt="userplaceholder">
+            </span>
+        </div>
+    </div>
+    <div class="bodyContainer">
+        <div class="mainleftSide">
+            <div class="boxLeft">
+                <h2>Top Stories</h2>
+                <p>Ninjas up big in 5th</p>
+                <p>Best sports cities</p> 
+                <p>Choi joins Hall of fame</p>
+                <p>Tournament underway</p>
+                <p>Samurai at Wizards...</p>
+            </div>
+            <div class="boxLeft">
+                <h3>Customize your DSNN</h3>
+                <span> <button id="blueButton">Sign in</button> <button id="whiteButton">Sign up</button></span>
+            </div>
+            <div class="boxLeft" onclick="hide(this)">
+                <h3>Never miss a play</h3>
+                <button id="subscribeButton">Subscribe</button>
+            </div>
+        </div>
+        <div class="mainRightSide">
+            <div class="rsBoxTop">
+                <h1 id="live">Live</h1>
+                <h1 id="ninjas">Ninjas leading Pirates</h1>
+            </div>
+            <div class="rightSideBodyContent">
+                <div class="rsFlexBoxes">
+                    <img src="Exam-pics/assets/sjc-ninjas.png" alt="ninja star">
+                    <p>San Jose</p>
+                    <h2>Ninjas</h2>
+                    <p>(10 W - 3 L)</p>
+                    <h1 onclick="addNumber(this)">319</h1>
+                </div>
+                <div class="betweenFlexBoxes">
+                    <h3>VS</h3>
+                    <p>0:13 remaining</p>
+                    <h5>5th period</h5>
+                </div>
+                <div class="rsFlexBoxes">
+                    <img src="Exam-pics/assets/ns-pirates.png" alt="Boat">
+                    <p>Nova scotia</p>
+                    <h2>Pirates</h2>
+                    <p>(12 W - 2 L)</p>
+                    <h1 onclick="addNumber(this)">164</h1>
+                </div>
+            </div>
+            <div class="rsBoxBtm">
+                <p>A conservative match between the two top performing 
+                    sides in the Central League Division with a number 1 seed at stake... <a href="www.google.com">get live updates</a>
+                </p>
+            </div>      
+        </div>
+    </div>
+</body>
+</html>
+

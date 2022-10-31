@@ -1,0 +1,239 @@
+body{
+    margin: 0px auto;
+    padding: 0px;
+    background-color: lightgray;
+}
+
+.liveScores {
+    background-color: white;
+    color: black;
+    width: 100%;
+}
+
+.liveScoresArea {
+    max-width: 870px;
+    background-color: white;
+    margin: 0px auto;
+    display: flex;
+    padding: 0px 15px;
+    align-items: center;
+}
+.scores {
+    padding-left: 20px;
+    margin-left: 50px;
+}
+
+p {
+    margin: 0px auto;
+}
+
+/* NAV BAR */
+
+.navBar {
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+.navContent {
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    width: 850px;
+}
+
+.navContent span {
+    margin-left: 200px;
+}
+
+.nav-title {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: red;
+    transform: skew(-12deg);
+    height: 100%;
+}
+
+.nav-links {
+    margin: 0px;
+    list-style-type: none;
+}
+
+.nav-display {
+    color:white;
+    display: inline-flex;
+}
+
+.nav-links a {
+    text-decoration:none;
+    color: white;
+}
+
+#btn {
+    background-color: rgb(35, 153, 200);
+    box-shadow: 4px 3px #040404;
+    color: white;
+    border-color: black;
+    display: inline-flex;
+    margin-left: 130px;
+}
+
+li {
+    padding: 15px;
+    margin-top: 3px;
+}
+
+.active {
+    color: white;
+}
+
+.smallUser {
+    width: 20px;
+    padding-right: 15px;
+}
+
+#smallUserID {
+    filter: invert(1);
+    width: 20px;
+}
+/* end of nav----- Start of body wireframe and content.- */
+
+.bodyContainer {
+    margin: 0px auto;
+    background-color: lightgray;
+    display: flex;
+    width: 900px;
+}
+
+.bodyContent {
+    width: 900px;
+}
+/* Left side of Body containing my 3 small container boxes.. */
+
+.mainleftSide {
+    flex: 1;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+.boxLeft {
+    background-color: white;
+    text-align: left;
+    border-radius: 8%;
+    padding: 8px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.boxLeft p {
+    padding-bottom: 10px;
+}
+.boxLeft h2 {
+    border-bottom: black 2px solid;
+    padding-bottom: 10px;
+    padding-left: 6px;
+}
+
+.boxLeft h2, h3, button {
+    padding-left: 5px;
+}
+
+.boxLeft button {
+    margin-left: 5px;
+}
+
+#blueButton {
+    background-color: rgb(21, 96, 234);
+    box-shadow: 5px 3px #040404;
+    color: white;
+    border-color: black;
+    width: 85px;
+    padding: 6px;
+}
+
+#whiteButton {
+    background-color: white;
+    color: black;
+    border-color: black;
+    padding: 6px;
+    box-shadow: 4px 3px;
+    margin-bottom: 20px;
+    width: 85px;
+}
+
+#subscribeButton {
+    width: 170px;
+    background-color: yellow;
+    color: black;
+    border-color: black;
+    padding: 6px;
+    box-shadow: 4px 3px;
+    margin-bottom: 20px;
+}
+/* Star of the Right Side of my body */
+
+.mainRightSide {
+    padding: 15px;
+    background-color: white;
+    flex: 2;
+    border-radius: 3%;
+    padding-bottom: 25px;
+    margin-top: 15px;
+}
+
+.rightSideBodyContent {
+    display: flex;
+    border-bottom: black solid 3px;
+}
+
+.rsBoxTop {
+    display: flex;
+    margin-left: 50px;
+}
+
+#ninjas {
+    margin-left: 105px;
+}
+
+#live {
+    color: red;
+    margin-left: -10px;
+    margin-bottom: 25px;
+}
+
+.rsFlexBoxes {
+    flex: 1;
+    text-align: center;
+}
+
+.rsFlexBoxes h2, h1 {
+    margin: 5px
+}
+
+.rsFlexBoxes h1 {
+    padding-bottom: 20px;
+}
+
+.betweenFlexBoxes{
+    flex: 1;
+    text-align: center;
+    padding-top: 55px;
+}
+
+.betweenFlexBoxes p {
+    padding-top: 65px;
+}
+
+.betweenFlexBoxes h5 {
+    margin: 0px auto;
+}
+
+.rsBoxBtm {
+    padding: 7px;
+}
+
+.rightSideBodyContent img {
+    width: 190px;
+    padding-bottom: 20px;
+}
+
